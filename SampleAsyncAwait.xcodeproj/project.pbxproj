@@ -14,6 +14,8 @@
 		2347FBBE2A7FDA0500913371 /* SampleAsyncAwaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FBBD2A7FDA0500913371 /* SampleAsyncAwaitTests.swift */; };
 		2347FBC82A7FDA0500913371 /* SampleAsyncAwaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FBC72A7FDA0500913371 /* SampleAsyncAwaitUITests.swift */; };
 		2347FBCA2A7FDA0500913371 /* SampleAsyncAwaitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FBC92A7FDA0500913371 /* SampleAsyncAwaitUITestsLaunchTests.swift */; };
+		2347FBD72A7FE19800913371 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FBD62A7FE19800913371 /* TaskModel.swift */; };
+		2347FBD92A7FE1CA00913371 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347FBD82A7FE1CA00913371 /* TaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2347FBC32A7FDA0500913371 /* SampleAsyncAwaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAsyncAwaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2347FBC72A7FDA0500913371 /* SampleAsyncAwaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAsyncAwaitUITests.swift; sourceTree = "<group>"; };
 		2347FBC92A7FDA0500913371 /* SampleAsyncAwaitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAsyncAwaitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2347FBD62A7FE19800913371 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		2347FBD82A7FE1CA00913371 /* TaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				2347FBAC2A7FDA0400913371 /* SampleAsyncAwaitApp.swift */,
 				2347FBAE2A7FDA0400913371 /* ContentView.swift */,
+				2347FBD62A7FE19800913371 /* TaskModel.swift */,
+				2347FBD82A7FE1CA00913371 /* TaskController.swift */,
 				2347FBB02A7FDA0500913371 /* Assets.xcassets */,
 				2347FBB22A7FDA0500913371 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2347FBD72A7FE19800913371 /* TaskModel.swift in Sources */,
 				2347FBAF2A7FDA0400913371 /* ContentView.swift in Sources */,
+				2347FBD92A7FE1CA00913371 /* TaskController.swift in Sources */,
 				2347FBAD2A7FDA0400913371 /* SampleAsyncAwaitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
